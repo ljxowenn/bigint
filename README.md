@@ -68,7 +68,7 @@ Frist compare the size and sign of the bigint, then lopp through the `value` of 
     cout << "Comparison (" << int64 << " >= " << stringInt << "): " << (int64 >= stringInt) << "\n";
 ```
 Here is the output of the testing script.
-
+```
 Default Constructor (0): +0
 Constructor with int64_t (-9223372036854775807): -9223372036854775807
 Constructor with string (+100000000000000000000): +100000000000000000000
@@ -84,3 +84,4 @@ Comparison (-9223372036854775807 < +100000000000000000000): 1
 Comparison (-9223372036854775807 > +100000000000000000000): 0
 Comparison (-9223372036854775807 <= +100000000000000000000): 1
 Comparison (-9223372036854775807 >= +100000000000000000000): 0
+```
